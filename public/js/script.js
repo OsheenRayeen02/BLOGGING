@@ -20,5 +20,9 @@ document.addEventListener('DOMContentLoaded', function(){
       this.setAttribute('aria-expanded', 'false');
     });
   
-  
+    function redirectToDashboardPage() {
+      window.location.href = "/dashboard";
+    }
+    
+    
   });

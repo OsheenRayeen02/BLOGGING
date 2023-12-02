@@ -325,6 +325,28 @@ img {
   color: var(--gray-light);
   padding: 15px;
 }
+.SignInBtn {
+  display: inline-block;
+  padding: 10px 15px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  background-color: #007bff; /* Button background color */
+  color: #fff; /* Button text color */
+  border: 2px solid #007bff; /* Button border color */
+  border-radius: 5px; /* Button border radius */
+  cursor: pointer;
+}
+
+.SignInBtn:hover {
+  background-color: #0056b3; /* Button background color on hover */
+  border-color: #0056b3; /* Button border color on hover */
+  color: #fff; /* Button text color on hover */
+}
+
+/* Add more styles as needed */
+
 
 
 .pagination {
